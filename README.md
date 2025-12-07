@@ -14,49 +14,57 @@ Smart procurement assistant with AI-driven proposal comparison
 
 This system automates the entire RFP (Request for Proposal) process using AI:
 
-✔ Features completed
-Feature	Status
-Convert natural RFP text → structured JSON using AI	⚡ Done
-Store RFPs in MongoDB	⚡ Done
-Add Vendors	⚡ Done
-Send RFP to all vendors (email simulation ready)	⚠ Email auth required
-Store Vendor Proposals	⚡ Done
-Compare proposals using AI & recommend best vendor	🔥 Core feature working
-API-based backend demo-ready	✔ Assignment-ready
+| Feature                                             | Status                  |
+| --------------------------------------------------- | ----------------------- |
+| Convert natural RFP text → structured JSON using AI | ⚡ Done                  |
+| Store RFPs in MongoDB                               | ⚡ Done                  |
+| Add Vendors                                         | ⚡ Done                  |
+| Send RFP to all vendors (email simulation ready)    |  ⚡ Done  |
+| Store Vendor Proposals                              | ⚡ Done                  |
+| Compare proposals using AI & recommend best vendor  | 🔥 Core feature working |
+| API-based backend demo-ready                        | ✔ Assignment-ready      |
+
 📌 Tech Stack
-Layer	Technology
-Backend	Node.js + Express
-Database	MongoDB Atlas
-AI Model	Groq LLM (can switch to OpenAI)
-Email	Nodemailer + IMAP (optional)
-Tools	Postman / Thunder Client
-📁 Project Structure
+| Layer    | Technology                      |
+| -------- | ------------------------------- |
+| Backend  | Node.js + Express               |
+| Database | MongoDB Atlas                   |
+| AI Model | Groq LLM (can switch to OpenAI) |
+| Email    | Nodemailer + IMAP (optional)    |
+| Tools    | Postman / Thunder Client        |
+
+Project Structure
 rfp-assignment/
 └── backend
     ├── server.js
-    ├── .env.example
-    └── src/
-        ├── config.js
-        ├── models/
-        │   ├── RFP.js
-        │   ├── Vendor.js
-        │   └── Proposal.js
-        ├── controllers/
-        │   ├── rfpController.js
-        │   ├── vendorController.js
-        │   └── proposalController.js
-        ├── services/
-        │   ├── aiService.js
-        │   └── emailService.js
-        └── routes/
-            ├── rfpRoutes.js
-            ├── vendorRoutes.js
-            └── proposalRoutes.js
+    ├── package.json
+    ├── .env.example (recommended)
+    ├── src
+    │   ├── config.js
+    │   ├── models
+    │   │   ├── RFP.js
+    │   │   ├── Vendor.js
+    │   │   └── Proposal.js
+    │   ├── controllers
+    │   │   ├── rfpController.js
+    │   │   ├── vendorController.js
+    │   │   └── proposalController.js
+    │   ├── services
+    │   │   ├── aiService.js
+    │   │   └── emailService.js
+    │   └── routes
+    │       ├── rfpRoutes.js
+    │       ├── vendorRoutes.js
+    │       └── proposalRoutes.js
+
 
 ⚙ Setup & Installation
+
 1️⃣ Clone project
+
 git clone https://github.com/<your-username>/rfp-assignment.git
 cd rfp-assignment/backend
+
 
 2️⃣ Install dependencies
 npm install
