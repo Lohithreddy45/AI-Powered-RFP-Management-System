@@ -10,8 +10,7 @@ Smart procurement assistant with AI-driven proposal comparison
 
 
 
-🌟 Overview
-
+🌟** Overview**
 This system automates the entire RFP (Request for Proposal) process using AI:
 
 | Feature                                             | Status                  |
@@ -33,7 +32,7 @@ This system automates the entire RFP (Request for Proposal) process using AI:
 | Email    | Nodemailer + IMAP (optional)    |
 | Tools    | Postman / Thunder Client        |
 
-Project Structure
+**Project Structure**
 
 rfp-assignment/
 └── backend
@@ -61,17 +60,17 @@ rfp-assignment/
 
 ⚙ Setup & Installation
 
-1️⃣ #Clone project
+**1️⃣ #Clone project**
 
 git clone https://github.com/YOUR-USERNAME/rfp-assignment.git
 cd rfp-assignment/backend
 
 
 
-2️⃣ #Install dependencies
+**2️⃣ #Install dependencies**
 npm install
 
-3️⃣ #Create .env file
+**3️⃣ #Create .env file**
 
 PORT=4000
 
@@ -95,7 +94,7 @@ FROM_EMAIL=your@gmail.com
 
 ⚠ Make sure .env is added to .gitignore.
 
-4️⃣ #Start server
+**4️⃣ #Start server**
 npm run dev
 
 
@@ -135,7 +134,7 @@ POST http://localhost:4000/api/proposals
 POST http://localhost:4000/api/rfps/<id>/compare
 
 
-🧠 Output Example
+**🧠 Output Example**
 
 {
   "aiResult": {
@@ -147,7 +146,7 @@ POST http://localhost:4000/api/rfps/<id>/compare
 
 
 
-🎥 Submission Video Flow
+**🎥 Submission Video Flow**
 
 Your walkthrough should cover:
 
@@ -169,7 +168,7 @@ Show output & recommendation
 
 Wrap up + trade-offs + scaling ideas
 
-🔮 Future Enhancements
+**🔮 Future Enhancements**
 
 Frontend Dashboard UI
 
@@ -179,7 +178,7 @@ Vendor scoring based on history
 
 Authentication & user accounts
 
-👤 Author
+**👤 Author**
 
 Lohith Tirumanyam
 Final Year B.Tech • SRM University
