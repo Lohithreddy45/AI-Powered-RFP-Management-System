@@ -34,6 +34,7 @@ This system automates the entire RFP (Request for Proposal) process using AI:
 | Tools    | Postman / Thunder Client        |
 
 Project Structure
+
 rfp-assignment/
 └── backend
     ├── server.js
@@ -60,25 +61,27 @@ rfp-assignment/
 
 ⚙ Setup & Installation
 
-1️⃣ Clone project
+1️⃣ #Clone project
 
-git clone https://github.com/<your-username>/rfp-assignment.git
+git clone https://github.com/YOUR-USERNAME/rfp-assignment.git
 cd rfp-assignment/backend
 
 
-2️⃣ Install dependencies
+
+2️⃣ #Install dependencies
 npm install
 
-3️⃣ Create .env file
+3️⃣ #Create .env file
+
 PORT=4000
 
 MONGO_URI=your_mongo_atlas_url_here
 
-# AI Key (choose one)
+
 GROQ_API_KEY=your_key_here
 OPENAI_API_KEY=your_key_here
 
-# Email config (optional)
+
 SMTP_HOST=smtp.gmail.com
 SMTP_PORT=587
 SMTP_USER=your@gmail.com
@@ -92,7 +95,7 @@ FROM_EMAIL=your@gmail.com
 
 ⚠ Make sure .env is added to .gitignore.
 
-4️⃣ Start server
+4️⃣ #Start server
 npm run dev
 
 
