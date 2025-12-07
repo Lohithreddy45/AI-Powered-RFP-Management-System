@@ -33,7 +33,6 @@ This system automates the entire RFP (Request for Proposal) process using AI:
 | Tools    | Postman / Thunder Client        |
 
 **Project Structure**
-
 rfp-assignment/
 └── backend
     ├── server.js
@@ -58,7 +57,7 @@ rfp-assignment/
     │       └── proposalRoutes.js
 
 
-⚙ Setup & Installation
+**⚙ Setup & Installation**
 
 **1️⃣ #Clone project**
 
@@ -168,15 +167,6 @@ Show output & recommendation
 
 Wrap up + trade-offs + scaling ideas
 
-**🔮 Future Enhancements**
-
-Frontend Dashboard UI
-
-Automated email reading (IMAP active mode)
-
-Vendor scoring based on history
-
-Authentication & user accounts
 
 **👤 Author**
 
