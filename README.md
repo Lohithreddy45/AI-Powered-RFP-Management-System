@@ -182,5 +182,4 @@ Authentication & user accounts
 
 Lohith Tirumanyam
 Email: lohithrdy4545@gmail.com
-
 Phone: +91 83670 34079
