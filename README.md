@@ -10,7 +10,7 @@ Smart procurement assistant with AI-driven proposal comparison
 
 
 
-🌟** Overview**
+🌟Overview
 This system automates the entire RFP (Request for Proposal) process using AI:
 
 | Feature                                             | Status                  |
