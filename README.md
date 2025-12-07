@@ -181,7 +181,6 @@ Authentication & user accounts
 **👤 Author**
 
 Lohith Tirumanyam
-Final Year B.Tech • SRM University
 Email: lohithrdy4545@gmail.com
 
 Phone: +91 83670 34079
