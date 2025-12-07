@@ -77,8 +77,7 @@ MONGO_URI=your_mongo_atlas_url_here
  AI Key (choose one)
 GROQ_API_KEY=your_key_here
 OPENAI_API_KEY=your_key_here
-
- Email config (optional)
+Email config (optional)
 SMTP_HOST=smtp.gmail.com
 SMTP_PORT=587
 SMTP_USER=your@gmail.com
