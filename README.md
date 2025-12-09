@@ -33,28 +33,33 @@ This system automates the entire RFP (Request for Proposal) process using AI:
 | Tools    | Postman / Thunder Client        |
 
 **Project Structure**
+
 rfp-assignment/
-└── backend
-    ├── server.js
+│
+├── backend/
+│   ├── server.js
+│   ├── package.json
+│   ├── .env (not committed)
+│   ├── src/
+│   │   ├── models/ (RFP, Vendor, Proposal)
+│   │   ├── controllers/
+│   │   ├── services/ (AI + Email)
+│   │   ├── routes/
+│   │   └── config.js
+│
+└── frontend/
+    ├── src/
+    │   ├── pages/
+    │   │   ├── CreateRFP.jsx
+    │   │   ├── RFPList.jsx
+    │   │   ├── Vendors.jsx
+    │   │   └── Proposals.jsx
+    │   ├── components/Navbar.jsx
+    │   └── App.jsx
     ├── package.json
-    ├── .env.example (recommended)
-    ├── src
-    │   ├── config.js
-    │   ├── models
-    │   │   ├── RFP.js
-    │   │   ├── Vendor.js
-    │   │   └── Proposal.js
-    │   ├── controllers
-    │   │   ├── rfpController.js
-    │   │   ├── vendorController.js
-    │   │   └── proposalController.js
-    │   ├── services
-    │   │   ├── aiService.js
-    │   │   └── emailService.js
-    │   └── routes
-    │       ├── rfpRoutes.js
-    │       ├── vendorRoutes.js
-    │       └── proposalRoutes.js
+    └── vite.config.js
+
+
 
 
 **⚙ Setup & Installation**
