@@ -75,24 +75,17 @@ cd rfp-assignment/backend
 npm install
 
 **3️⃣ #Create .env file**
+
+
+MONGO_URI=your_connection_uri
+OPENAI_API_KEY=your_key
 PORT=4000
 
-MONGO_URI=your_mongo_atlas_url_here
-
- AI Key (choose one)
-GROQ_API_KEY=your_key_here
-OPENAI_API_KEY=your_key_here
-Email config (optional)
-SMTP_HOST=smtp.gmail.com
-SMTP_PORT=587
-SMTP_USER=your@gmail.com
-SMTP_PASS=app-password
-IMAP_HOST=imap.gmail.com
-IMAP_PORT=993
-IMAP_USER=your@gmail.com
-IMAP_PASS=app-password
-FROM_EMAIL=your@gmail.com
-
+SMTP_HOST=smtp.mailtrap.io
+SMTP_PORT=2525
+SMTP_USER=xxxx
+SMTP_PASS=xxxx
+FROM_EMAIL=test@mail.com
 
 
 ⚠ Make sure .env is added to .gitignore.
